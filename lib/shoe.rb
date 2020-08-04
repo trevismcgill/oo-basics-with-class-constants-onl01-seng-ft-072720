@@ -4,11 +4,10 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-BRANDS = []
+BRANDS.uniq = []
   def initialize(brand)
     @brand = brand
     BRANDS.push(brand)
-    BRANDS.uniq
     binding.pry
   end
 
