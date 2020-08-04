@@ -8,7 +8,6 @@ BRANDS.uniq = []
   def initialize(brand)
     @brand = brand
     BRANDS.push(brand)
-    binding.pry
   end
 
   def cobble
