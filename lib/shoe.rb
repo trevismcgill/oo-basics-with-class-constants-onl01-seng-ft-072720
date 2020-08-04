@@ -8,7 +8,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS.push(brand)
+    BRANDS.push(@brand)
   end
 
   def cobble
@@ -17,4 +17,4 @@ BRANDS = []
   end
 end
 
-BRANDS.uniq
+
